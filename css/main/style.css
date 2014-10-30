@@ -1,0 +1,436 @@
+/* 
+* LICENSE BY AHMAD MAFTUH AHNAN
+* Writes By Ahmad Maftuh Ahnan
+* Site 	: Ucilinside.com
+* Year 	: 2014
+* Month	: Oktober
+* Day 	: 24
+*/
+
+@import url("//fonts.googleapis.com/css?family=Ubuntu");
+
+body{
+	background:#fff;
+	margin:0;
+	padding:0;
+}
+
+#min-bd{
+	min-width:400px !important;
+}
+
+.total{
+	width:100%;
+	min-height:80px;
+	background:#ededed;
+}
+
+.head-2{
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 35px !important;
+	font-weight: 400 !important;
+	line-height: 20px;
+	text-align:center;
+}
+
+.head-3{
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 30px !important;
+	font-weight: 400 !important;
+	text-align:center;
+}
+
+.partner{
+	background:#ededed;
+	padding-bottom:60px;
+}
+
+.bg-ft{
+	background-color:#1C1F24 !important;
+}
+
+.kontak{
+	background-color:#1C1F24;
+	width:100%;
+	overflow:hidden;
+}
+
+.pd-at{
+	padding-top:40px;
+	color:#fff;
+}
+
+.layer{
+	z-index:99999;
+}
+
+.post-copy {
+	overflow: hidden;
+	clear: both;
+	width: 270px;
+	margin:5px;
+	background:#fff;
+	border:1px solid #c0c0c0;
+}
+
+#post-area{
+	width: 100%;
+	background: #FFF;
+	margin-right: 10px;
+	margin-top: -15px;
+}
+
+.graf-head{
+	width:100%;
+	padding:10px;
+	overflow:hidden;
+}
+
+.graf-image{
+	width:100%;
+	margin:auto;
+}
+
+.head-jd{
+	font-family: Montserrat,"open sans",Helvetica,Arial,sans-serif !important;
+	font-size: 18px !important;
+	font-weight: 450 !important;
+	line-height: 20px;
+	font-style: regular;
+}
+
+.head-kal{
+	font-family: Montserrat,"open sans",Helvetica,Arial,sans-serif !important;
+	font-size: 12px !important;
+	font-weight: 450 !important;
+	line-height: 20px;
+	font-style: italic;
+	color:#969696;
+}
+
+.graf-rm{
+	width:80px;
+	min-height:30px;
+	text-align:right;
+	position:absolute;
+	margin:-29px 190px auto;
+}
+
+.btn-rm{
+	color:#fff;
+	padding:11px 20px;
+	background:#000;
+}
+
+.btn-rm:hover{
+	color:#fff;
+	padding:11px 20px;
+	background:#1B1B1B;
+}
+
+.col-sm-3  > p{
+	margin-top: 30px;
+	font-family: Montserrat,"ubuntu",Helvetica,Arial,sans-serif !important;
+	font-size: 20px !important;
+	font-weight: 400 !important;
+	line-height: 20px;
+	text-align:center;
+	font-style:italic;
+}
+
+.pdp{
+	padding-top: 13px !important;
+}
+
+.pdj{
+	padding-top:100px !important;
+	padding-bottom:100px !important;
+	text-align:center;
+}
+
+#bg-item {
+	padding: 10px;
+	font-style: italic;
+	background: rgba(0, 0, 0, 0.3);
+	max-width: 400px;
+	margin: auto;
+	text-align:center;
+	font-size: 1.3em;
+	color:#fff;
+}
+
+.putih{
+	background:#fff;
+}
+
+.content{
+	width:100%;
+	overflow:hidden;
+}
+
+.contenti{
+	margin:100px auto;
+	width:100%;
+	overflow:hidden;
+}
+
+.non-sd{
+	box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	background:none !important;
+}
+@media screen and (min-width: 768px) {
+.head{
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 60px !important;
+	font-weight: 700 !important;
+	line-height: 20px;
+}
+
+.non-sdt{
+	border-top:3px solid #00caa3;
+	box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	background:none !important;
+	position:relative!important;
+}
+
+
+
+.ft-mn a{
+	color:#fff !important;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-weight: 400 !important;
+	letter-spacing: 1px;
+	transition:all 0.3s ease-out;
+}
+
+.ft-mn a:hover{
+	background:#22A7F0 !important;
+}
+
+.bg-jb{
+	background:url('../pic/index.PNG');
+	background-size:100%;
+	background-attachment:fixed;
+	margin:-80px auto;
+	background-size: cover;
+}
+
+
+}
+
+/* Respon Menngecil*/
+@media screen and (max-width: 1199px) {
+	.head{
+		margin-bottom: 25px;
+		text-transform: uppercase;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 40px;
+		font-weight: 500;
+		line-height: 50px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.head{
+		margin-bottom: 25px;
+		text-transform: uppercase;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 40px;
+		font-weight: 500;
+		line-height: 50px;
+	}
+	
+	.non-sdt{
+		background:#232324;
+	}
+	
+	.search-icon {
+	position: absolute;
+	top: 2px;
+	left: 8.5px;
+	z-index: 20;
+	width: 30px;
+	font-size: 17px;
+	line-height: 30px;
+	color: #e6e9ed;
+	text-align: center;
+	margin-top: 20px;
+	}
+ 
+	
+	.bg-jb {
+	background: url('../pic/index.PNG');
+	background-size: 100%;
+	background-attachment: fixed;
+	margin: -80px auto;
+	background-size: cover;
+	}
+	
+	.non-sdt{
+	border-top:none;
+	position:relative !important;
+	}
+	
+	.ft-mn{
+		text-transform: uppercase;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+		font-weight: 400  !important;
+		letter-spacing: 1px;
+	}
+
+	.ft-mn a:hover{
+		background:#22A7F0 !important;
+	}
+
+}
+
+.ft-mn a:active{
+	border-bottom:none !important;
+}
+
+.main{
+	background:#232324 !important;
+	position:fixed;
+}
+
+.gede{
+	width:120px !important;
+}
+
+.kecil{
+	width:100px !important;
+	background:none !important;
+	border:none;
+	transition:all 0.4s ease-out !important;
+}
+
+.kecil:focus{
+	color:#fff !important;
+	width:200px !important;
+	background:none !important;
+	border:none;
+}
+
+.non-sd  h1{
+	color:#fff;
+}
+
+.non-sd  h2{
+	color:#fff;
+}
+
+.non-sd  p{
+	color:#fff;
+}
+
+.btn-ps{
+	margin-top:40px;
+}
+
+.aksinya{
+	width:100%;
+	min-height:60px;
+	background:rgba(255, 255, 255, 0.53);
+}
+
+.grs{
+	width:100%;
+	height:5px;
+	background:#c0c0c0;
+}
+
+.lines{
+	width:55%;
+	padding:0px;
+	margin:0px;
+	border-top:5px solid #ed8205;
+	border-left:0px solid transparent;
+	border-right:5px solid transparent;
+	
+}
+
+#pdak{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#gr{
+	background:#00d587 !important;
+	transition:all 0.4s ease-out;
+}
+
+#gr:hover{
+	background:#0E8E59 !important;
+}
+
+#lg{
+	background:#00caa3 !important;
+	transition:all 0.4s ease-out;
+}
+
+#lg:hover{
+	background:#029b7d !important;
+}
+
+.aksi-btn{
+	margin:20px auto;
+	min-height:20px;
+	min-width:300px;
+	text-align:center;
+}
+
+.d-btn{
+	
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+}
+
+.redd{
+
+	padding:20px 50px;
+	background:#d42411;
+	text-transform:uppercase;
+	font-size:13px;
+	font-weight:600;
+	color:#fff !important;
+}
+
+.redd:hover{
+	background:#b41504;
+	color:#fff !important;
+}
+
+.watsap{
+	width:100%;
+	height:50px;
+}
+
+.bsneue{
+	font-family: 'Novecentosanswide-DemiBold' !important;
+	font-weight: bold;
+	font-style: bold;
+}
