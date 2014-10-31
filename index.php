@@ -1,3 +1,4 @@
+<?php include_once "./controller/indexController.php"; ?>
 <!DOCTYPE html>
 <html>
 	<head>

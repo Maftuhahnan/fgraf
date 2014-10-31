@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="3">
         <file>
             <url>db/newEmptyPHP.php</url>
             <bookmark id="1">
@@ -13,6 +13,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/fgraf/db/db.php</file>
+            <file>file:/C:/xampp/htdocs/fgraf/db/config.php</file>
+            <file>file:/C:/xampp/htdocs/fgraf/db/kueri.php</file>
+            <file>file:/C:/xampp/htdocs/fgraf/controller/inc.php</file>
+            <file>file:/C:/xampp/htdocs/fgraf/controller/indexController.php</file>
             <file>file:/C:/xampp/htdocs/fgraf/index.php</file>
         </group>
     </open-files>
