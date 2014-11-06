@@ -1,6 +1,4 @@
 <?php
-include "/db/config.php";
-include "/konektor/db.php";
 class db extends konfigdb{
     
     protected static function connect()

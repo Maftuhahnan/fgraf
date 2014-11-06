@@ -19,3 +19,6 @@ function sp($par){
 	echo "<script language='javascript'>alert('".$kata."');document.location='".$hal."';</script>";
  }
 
+ function clink(){
+	echo "http://".$_SERVER['HTTP_HOST']."/fgraf/fgraf/";
+ }
