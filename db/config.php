@@ -1,31 +1,21 @@
 <?php
-// class dbConfiguration{
-	// public $config = "db_fgraf";
-    // public $host = "localhost";
-    // public $user = "root";
-    // public $pass = "";
-    // public $port = "3306"; 
 
-// }
-
-// // return array(
-    // // 'db' => array(
-        // // 'host' => 'localhost', // 127.0.0.1
-        // // 'port' => '3306', // default mysql
-        // // 'username' => 'root',
-        // // 'password' => '',
-        // // 'dbname' => 'db_wyc',
-    // // ),
-    // // 'timezone' => 'Asia/Jakarta',
-    // // 'salt' => 'AB87@#5edV!3s)98s^7_9*6HNM%$))$%Has34bk98s*9)&S$@sda',
-// // );
-
-// // $scr = array(
-    // // "time" => "Asia/Jakarta",
-    // // "salt" => "AB87@#5edV!3s)98s^7_9*6HNM%$))$%Has34bk98s*9)&S$@sdaaawO099"
-// // );
-
-// // function sat($par){
-    // // return addslashes(htmlspecialchars(trim(strtolower($_POST[$par]))));
-// // }
+return $scr = array(
+     "time" => "Asia/Jakarta",
+     "salt" => "AB87@#5edV!3s)98s^7_9*6HNM%$))$%Has34bk98s*9)&S$@sdaaawO099"
+ );
+function sp($par){
+     return addslashes(htmlspecialchars(trim(strtolower($_POST[$par]))));
+ }
+ 
+ function enk($par,$scr = array(
+     "time" => "Asia/Jakarta",
+     "salt" => "AB87@#5edV!3s)98s^7_9*6HNM%$))$%Has34bk98s*9)&S$@sdaaawO099"
+ )){
+	return sha1($scr["salt"].md5($par.sha1($scr["salt"].md5($par))));
+ }
+ 
+ function alert($kata,$hal){
+	echo "<script language='javascript'>alert('".$kata."');document.location='".$hal."';</script>";
+ }
 

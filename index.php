@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>FGRAF</title>
+		<title>Fgraf </title>
 		<!-- Sets initial viewport load and disables zooming  -->
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="css/css/site.min.css">
@@ -37,12 +37,6 @@
 						</div>
 						<div class="form-group" id="rgs">
 							<div class="input-group">
-							 <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-							  <input type="text" class="form-control" name="nis" placeholder="Nomor Induk Siswa (NIS)">
-							</div>
-						</div>
-						<div class="form-group" id="rgs">
-							<div class="input-group">
 							 <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
 							  <input type="email" class="form-control" name="email" placeholder="Email">
 							</div>
@@ -61,11 +55,12 @@
 							</div>
 						</div>
 						<span class="loading"></span>
-				</form></div>
+				</div>
 		  </div>
 		  <div class="modal-footer">
 			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			<button type="button" class="btn btn-primary">Save changes</button>
+			<button type="submit" name="regist" class="btn btn-primary">Kirim Data</button>
+			</form>
 		  </div>
 		</div>
 	  </div>
