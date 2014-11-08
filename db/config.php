@@ -20,5 +20,5 @@ function sp($par){
  }
 
  function clink(){
-	echo "http://".$_SERVER['HTTP_HOST']."/fgraf/fgraf/";
+	echo "http://".$_SERVER['HTTP_HOST']."/fgraf/";
  }
