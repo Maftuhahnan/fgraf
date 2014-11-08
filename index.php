@@ -143,6 +143,13 @@
 	  <!-- END Jumb-->
 	  <div class="contenti" >
 	  <h4 class="head-2">project</h4>
+	  <?php ?>
+	  <?php
+			
+			$d = $crd->kelRow(fg::all("SELECT * FROM user"));
+			print_r($d);
+			
+	  ?>
 	  <div class="container" id="portfolio">
 		<div id="post-area" class="masonry" >
 			<div class="post-copy">

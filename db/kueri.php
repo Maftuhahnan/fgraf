@@ -20,6 +20,17 @@ class fg extends db{
 		return $query;
 	}
 	
+	public function kelArray($dta){
+		while($rowDB = mysqli_fetch_array($dta))
+			$dataNya[] = $rowDB;
+			return $dataNya;
+	}
+	
+	public function kelRow($param){
+		$row = mysqli_num_rows($param);
+		return $row;
+	}
+	
 	public function __destruct(){
 		return mysqli_close($this->connect());
 	}
