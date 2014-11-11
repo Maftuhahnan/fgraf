@@ -65,6 +65,38 @@
 		</div>
 	  </div>
 	</div>
+	<div class="modal fade layer" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			<h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+		  </div>
+		  <div class="modal-body">
+			<div class="modal-body">
+					<form method="post" id="contoh-form">
+						<div class="form-group" id="rgs">
+							<div class="input-group">
+							 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							  <input type="text" class="form-control" name="username" placeholder="Username">
+							</div>
+						</div>
+						<div class="form-group" id="rgs">
+							<div class="input-group">
+							 <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+							  <input type="email" class="form-control" name="email" placeholder="Email">
+							</div>
+						</div>
+				</div>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			<button type="login" name="regist" class="btn btn-primary">Login</button>
+			</form>
+		  </div>
+		</div>
+	  </div>
+	</div>
 	<!-- END REGISTRATION-->
 	<!-- Navigation -->
 	<nav class="navbar navbar-default navbar-custom non-sdt" id="kebawah" role="navigation" style="display: block;">
@@ -115,7 +147,7 @@
 			<div class="container" id="pdak">
 				<div class="aksi-btn">
 					<a href="" class="jb-btn redd" data-toggle="modal" data-target="#register" id="gr"><i class="fa fa-user"></i> Sign Up</a>&nbsp;
-					<a href="" class="jb-btn redd"  id="lg"><i class="fa fa-sign-in"></i> Login</a>
+					<a href="" class="jb-btn redd" data-toggle="modal" data-target="#login" id="lg"><i class="fa fa-sign-in"></i> Login</a>
 				</div>
 			</div>
 			<div class="grs">
@@ -143,13 +175,6 @@
 	  <!-- END Jumb-->
 	  <div class="contenti" >
 	  <h4 class="head-2">project</h4>
-	  <?php ?>
-	  <?php
-			
-			$d = $crd->kelRow(fg::all("SELECT * FROM user"));
-			print_r($d);
-			
-	  ?>
 	  <div class="container" id="portfolio">
 		<div id="post-area" class="masonry" >
 			<div class="post-copy">

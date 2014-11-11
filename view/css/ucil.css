@@ -1,6 +1,6 @@
 @import url("//fonts.googleapis.com/css?family=Lato:400,700,400italic");
 body{
-	background-image:url('/empici/img/bg.PNG');
+	background:#efefef;
 	background-size:100%;
 	background-attachment:fixed;
 }
