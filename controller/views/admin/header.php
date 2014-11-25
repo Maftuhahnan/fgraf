@@ -33,10 +33,10 @@
 			  
 			  <ul class="nav navbar-nav navbar-right">
 				<li><a href="#">Home</a></li>
-				<li><a href="#">User</a></li>
-				<li><a href="#">Alat Kembali</a></li>
-				<li><a href="#">Tambah Alat</a></li>
-				<li><a href="#">Kategori</a></li>
+				<li><a href="index.php">User</a></li>
+				<li><a href="index.php">Alat Kembali</a></li>
+				<li><a href="index.php">Tambah Alat</a></li>
+				<li><a href="index.php">Kategori</a></li>
 				<li class="dropdown">
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin Super <b class="caret"></b></a>
 				  <ul class="dropdown-menu">

@@ -305,58 +305,139 @@
                         <img src="css/pic/canon.PNG" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
+                </div>
+          
+    </div>
+    </div>
+    </div>
+	<div class="clearfix"> </div>
+	<div class="contact" id="contact">
+	<div class="wrap">
+		<div class="section group">
+			  <div class="col span_2_of_3">
+				  <div class="contact-form">
+				  	  <form method="post" action="#">
+					    	
+					    		<input type="text" class="textbox" value="Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your  Name';}">
+						    	<input type="text" class="textbox" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email';}">
+						    	<div class="clear"> </div>
+						   
+						    <div>
+						    	<textarea value="Your Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Message';}">Your Message...</textarea>
+						    </div>
+						  <span><input type="submit" class="" value="Submit"></span>
+						  <div class="clear"></div>
+					    </form>
+				  </div>
+  				</div>
+				<div class="col span_1_of_3">
+					<div class="company_address">
+				<div class="nav-title">GET IN TOUCH</div><br>
+						<div class="contact-top">
+				<div class="col-md-3">
+					<img src="img/map2.png" alt=""/>
+				</div>	
+				<div class="col-md-9 us-left">
+					<p>Jalan Cemara Raya, Banyumanik, semarang, Indonesia 50527</p>
+				</div>	
+				<div class="clearfix"> </div>
+					<div class="col-md-3">
+					<img src="img/phone copy.png" alt=""/>
+				</div>	
+				<div class="col-md-9 us-left">
+					<p>mail@fgraf.com</p>
+				</div>
+				<div class="clearfix"> </div>
+					<div class="col-md-3">
+					<img src="img/message.png" alt=""/>
+				</div>	
+				<div class="col-md-9 us-left-bottom">
+					<p>+91-00-767612345</p>
+				</div>
+				<div class="clearfix"> </div>
+				</div>
+			</div>
+			</div>
+			</div>
+     	</div>
+     	</div>
+     	<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
+                        <li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
+                        <li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
+                        <li><a href="https://www.facebook.com/Bluxart" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="http://www.linkedin.com/in/alessioatzeni" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                        <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
+                        <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
-	<div class="kontak">
-		<div class="container pd-at">
-			<div class="row">
-			  <div class="col-xs-6">
-				<dt class="nav-title">GET ME IN TOUCH</dt><br>
-				<p><i class="fa fa-map-marker"></i> Jl. Cemara Raya, Banyumanik, Semarang Indonesia 50272</p>
-				<p><i class="fa fa-mobile"></i> (024) 123-1234-12</p>
-				<p><i class="fa fa-envelope"></i> Admin@ucilinside.com</p>
-				
-			  </div>
-			  <div class="col-xs-6">
-				<input type="text" class="form-control" placeholder="Text input">
-			  </div>
-			</div>
-		</div>
-	</div>
+</div>
+<!-- End Socialize -->
 	 <!--Footer-->
-	 <div class="footer bg-ft">
-              <div class="container">
-                <div class="clearfix">
-                  <dl class="footer-nav">
-                    <dt class="nav-title">PORTFOLIO</dt>
-                    <dd class="nav-item"><a href="#">Web Design</a></dd>
-                    <dd class="nav-item"><a href="#">Branding &amp; Identity</a></dd>
-                    <dd class="nav-item"><a href="#">Mobile Design</a></dd>
-                    <dd class="nav-item"><a href="#">Print</a></dd>
-                    <dd class="nav-item"><a href="#">User Interface</a></dd>
-                  </dl>
-                  <dl class="footer-nav">
-                    <dt class="nav-title">ABOUT</dt>
-                    <dd class="nav-item"><a href="#">The Company</a></dd>
-                    <dd class="nav-item"><a href="#">History</a></dd>
-                    <dd class="nav-item"><a href="#">Vision</a></dd>
-                  </dl>
-                  <dl class="footer-nav">
-                    <dt class="nav-title">GALLERY</dt>
-                    <dd class="nav-item"><a href="#">Flickr</a></dd>
-                    <dd class="nav-item"><a href="#">Picasa</a></dd>
-                    <dd class="nav-item"><a href="#">iStockPhoto</a></dd>
-                    <dd class="nav-item"><a href="#">PhotoDune</a></dd>
-                  </dl>
-                  <dl class="footer-nav">
-                    <dt class="nav-title">CONTACT</dt>
-                    <dd class="nav-item"><a href="#">Basic Info</a></dd>
-                    <dd class="nav-item"><a href="#">Map</a></dd>
-                    <dd class="nav-item"><a href="#">Conctact Form</a></dd>
-                  </dl>
-                </div>
-                <div class="footer-copyright text-center">Copyright © 2014 Flathemes.All rights reserved.</div>
+<footer>
+		 <div class="footer">
+			<div class="container">
+				<div class="footer-grid">
+					<h3>Resend Post</h3>
+					<ul class="list1">
+					  <li><a href="#">Indie Bung</a></li>
+					  <li><a href="#">Indie Bung</a></li>
+					  <li><a href="#">Nganu</a></li>
+				    </ul>
+				</div>
+				<div class="footer-grid">
+					<h3>Our Client</h3>
+				    <ul class="list1">
+					  <li><a href="#">Crocodic</a></li>
+					  <li><a href="#">Crocodic</a></li>
+					  <li><a href="#">Crocodic</a></li>
+					  <li><a href="#">Jargoone Pictures</a></li>
+					  <li><a href="#">Jargoone Pictures</a></li>
+					  
+				    </ul>
+				</div>
+				<div class="footer-grid">
+					<h3>Crew</h3>
+					<ul class="list1">
+					  <li><a href="#">Our Crew</a></li>
+					  <li><a href="#">SMK 11 Semarang</a></li>
+				    </ul>
+				  </div>
+				  
+				 <div class="footer-grid ">
+				 <h3>Links</h3>
+					<ul class="list1">
+					  <li><a href="#">Home</a></li>
+					  <li><a href="#">About</a></li>
+					  <li><a href="#">Status</a></li>
+					  <li><a href="#">Project</a></li>
+				    </ul>
+				  </div>
+				  <div class="footer-grid footer-grid_last">
+					<h3>Information</h3>
+					<ul class="list1">
+					  <li><a href="#">My Account</a></li>
+					  <li><a href="#">Terms and Condition</a></li>
+					  <li><a href="#">FAQ</a></li>
+				    </ul>
+				  </div>
+                 </div>
+				 <div class="clearfix"> </div>
+			</div>
+</section>
+<!--/bottom-->
+                <div class="copy-right">Copyright © 2014 Multimedia.All rights reserved.</div>
               </div>
             </div>
 	 

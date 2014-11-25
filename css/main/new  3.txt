@@ -1,0 +1,32 @@
+<div class="nav-title">GET IN TOUCH</div><br>
+						<ul class="list3">
+							<li> 
+								<img src="img/map.png" alt="">
+								<div class="extra-wrap">
+								  <p>Jalan Cemara Raya, Banyumanik, Semarang, Indonesia 50272</p>
+								  <p> Semarang, Indonesia 50272</p>
+								</div>
+								<div class="clear"> </div>
+							</li>
+							
+							<li>
+								<img src="img/phone copy.png"alt="">
+								<div class="extra-wrap">
+									<p>+1 800(Phone) 258 2598</p>
+								</div>
+								<div class="clear"> </div>
+							</li>
+								<img src="img/message.png" alt=""/>
+								<div class="extra-wrap">
+									<p> <a href="mailto:info@mycompany.com"> info(at)appstore.com</a></p>
+								</div>
+								<div class="clear"> </div>
+							</li>
+						</ul>
+				   </div>
+				 </div>
+				 <div class="clear"></div>
+			  </div>
+			  </div>
+     	</div>
+     	</div>

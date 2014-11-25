@@ -363,3 +363,33 @@ body{
 	border:none !important;
 	margin-top:10px;
 }
+/*--footer--*/
+.footer{
+	background:#101010;
+	padding:2em 0;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.footer-grid {
+	float: left;
+	width: 15%;
+	margin-right: 5%;
+}
+.footer-grid_last {
+	margin-right: 0;
+}
+.footer-grid h3 {
+	color: #00CAA3;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 1.0em;
+}
+ul.list1 {
+	padding: 0;
+	list-style: none;
+}
+ul.list1 a {
+	color: #fff;
+	font-size: 1.0em;
+	line-height: 1.7em;
+	font-family: 'Roboto', sans-serif;
+}

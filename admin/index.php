@@ -1,5 +1,4 @@
 <?php include "../controller/adminController.php"; ?>
-
 		<div class="content" id="pdt">
 			<div class="container">
 			<div class="user" style="text-align:center">
@@ -70,40 +69,58 @@
 			</div>
 			
 	</div>
-		
-	<div class="footer">
-              <div class="container">
-                <div class="clearfix">
-                  <div class="footer-logo"><a href="#"><img src="http://localhost/wyc/wy_app/views/themes/default/img/logo.PNG" width="100"></a></div>
-                  <dl class="footer-nav">
-                    <dt class="nav-title">PORTFOLIO</dt>
-                    <dd class="nav-item"><a href="#">Web Design</a></dd>
-                    <dd class="nav-item"><a href="#">Branding &amp; Identity</a></dd>
-                    <dd class="nav-item"><a href="#">Mobile Design</a></dd>
-                    <dd class="nav-item"><a href="#">Print</a></dd>
-                    <dd class="nav-item"><a href="#">User Interface</a></dd>
-                  </dl>
-                  <dl class="footer-nav">
-                    <dt class="nav-title">ABOUT</dt>
-                    <dd class="nav-item"><a href="#">The Company</a></dd>
-                    <dd class="nav-item"><a href="#">History</a></dd>
-                    <dd class="nav-item"><a href="#">Vision</a></dd>
-                  </dl>
-                  <dl class="footer-nav">
-                    <dt class="nav-title">GALLERY</dt>
-                    <dd class="nav-item"><a href="#">Flickr</a></dd>
-                    <dd class="nav-item"><a href="#">Picasa</a></dd>
-                    <dd class="nav-item"><a href="#">iStockPhoto</a></dd>
-                    <dd class="nav-item"><a href="#">PhotoDune</a></dd>
-                  </dl>
-                  <dl class="footer-nav">
-                    <dt class="nav-title">CONTACT</dt>
-                    <dd class="nav-item"><a href="#">Basic Info</a></dd>
-                    <dd class="nav-item"><a href="#">Map</a></dd>
-                    <dd class="nav-item"><a href="#">Conctact Form</a></dd>
-                  </dl>
-                </div>
-                <div class="footer-copyright text-center"><p>© Wayang CMS 2014. Design By <a href="//ucilinside.com" target="_blank">Ucilinside</a>. Ahmad Maftuh Ahnan</p></div>
+	 <!--Footer-->
+<footer>
+		 <div class="footer">
+			<div class="container">
+				<div class="footer-grid">
+					<h3>Resend Post</h3>
+					<ul class="list1">
+					  <li><a href="#">Indie Bung</a></li>
+					  <li><a href="#">Indie Bung</a></li>
+					  <li><a href="#">Nganu</a></li>
+				    </ul>
+				</div>
+				<div class="footer-grid">
+					<h3>Our Client</h3>
+				    <ul class="list1">
+					  <li><a href="#">Crocodic</a></li>
+					  <li><a href="#">Crocodic</a></li>
+					  <li><a href="#">Crocodic</a></li>
+					  <li><a href="#">Jargoone Pictures</a></li>
+					  <li><a href="#">Jargoone Pictures</a></li>
+					  
+				    </ul>
+				</div>
+				<div class="footer-grid">
+					<h3>Crew</h3>
+					<ul class="list1">
+					  <li><a href="#">Our Crew</a></li>
+					  <li><a href="#">SMK 11 Semarang</a></li>
+				    </ul>
+				  </div>
+				  
+				 <div class="footer-grid ">
+				 <h3>Links</h3>
+					<ul class="list1">
+					  <li><a href="#">Home</a></li>
+					  <li><a href="#">About</a></li>
+					  <li><a href="#">Status</a></li>
+					  <li><a href="#">Project</a></li>
+				    </ul>
+				  </div>
+				  <div class="footer-grid footer-grid_last">
+					<h3>Information</h3>
+					<ul class="list1">
+					  <li><a href="#">My Account</a></li>
+					  <li><a href="#">Terms and Condition</a></li>
+					  <li><a href="#">FAQ</a></li>
+				    </ul>
+				  </div>
+                 </div>
+				 <div class="clearfix"> </div>
+			</div>
+                <div class="copy-right">Copyright © 2014 Multimedia.All rights reserved.</div>
               </div>
             </div>
 		
